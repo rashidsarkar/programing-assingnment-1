@@ -362,3 +362,18 @@ footer small {
   line-height: normal;
   margin-top: 32px;
 }
+/* new  */
+#new_1 .main {
+  display: flex;
+  justify-content: space-around;
+}
+#new_2 .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#new_3 .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
