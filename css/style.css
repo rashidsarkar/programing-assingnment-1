@@ -1,5 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
+  background: #fff;
 }
 * {
   margin: 0;
@@ -21,6 +22,9 @@ body {
   width: 1320px;
   margin: 0 auto;
   /* padding: 30px 30px 0px 150px; */
+}
+.new_sec_css {
+  margin: 50px 0;
 }
 
 /* title part  */
@@ -97,9 +101,6 @@ header {
 
 /* header part end  */
 /* featured part start  */
-.new_sec_css {
-  margin: 50px 0;
-}
 
 #featured .featured_content .main {
   display: flex;
@@ -108,8 +109,6 @@ header {
 }
 #featured .section-description span {
   display: block;
-}
-#featured .flower {
 }
 
 #featured .flower .flower_pic {
@@ -140,3 +139,32 @@ header {
 }
 /* featured part end  */
 /* support part start  */
+#support {
+  border-radius: 8px;
+  /* background: #2727270d; */
+  padding: 20px 0;
+  /* display: flex;
+  align-items: center; */
+}
+#support .main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: rgb(31, 148, 119);
+  border-radius: 8px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+#support .day .icon {
+  display: flex;
+  justify-content: center;
+}
+#support .day .tex {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+}
