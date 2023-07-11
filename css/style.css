@@ -85,7 +85,7 @@ header {
 }
 
 #banar .baner_img {
-  height: 500px;
+  height: 450px;
 }
 #banar .baner_img img {
   height: 100%;
@@ -161,6 +161,7 @@ header {
 #support .day .icon {
   display: flex;
   justify-content: center;
+  height: 50px;
 }
 #support .day .tex {
   color: rgba(39, 39, 39, 0.8);
@@ -221,6 +222,12 @@ header {
   border-radius: 8px;
   background: #e55473;
   margin: 0 auto;
+}
+#hot_deal img {
+  height: 100%;
+}
+#hot_deal .img {
+  height: 350px;
 }
 
 /* insta part start  */
