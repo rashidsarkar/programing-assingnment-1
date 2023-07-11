@@ -1,0 +1,142 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.tex_primary {
+  color: #272727;
+}
+.btn_primary {
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  /* padding: 30px 30px 0px 150px; */
+}
+
+/* title part  */
+.title_part {
+  text-align: center;
+  margin: 7px 0;
+}
+
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 12px 0;
+}
+/* title part  */
+
+/* comon css end  */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+#banar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px 0px 150px;
+  align-items: center;
+}
+
+#banar .banar_title {
+  text-align: left;
+}
+#banar .banar_title h2 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+#banar .banar_title span {
+  display: block;
+}
+
+#banar .baner_img {
+  height: 500px;
+}
+#banar .baner_img img {
+  height: 100%;
+}
+.banner_description {
+  text-align: left;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 612px;
+  margin: 32px 0;
+}
+
+/* header part end  */
+/* featured part start  */
+.new_sec_css {
+  margin: 50px 0;
+}
+
+#featured .featured_content .main {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+#featured .section-description span {
+  display: block;
+}
+#featured .flower {
+}
+
+#featured .flower .flower_pic {
+  width: 250px;
+  height: 400px;
+
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+#featured .flower .flower_pic img {
+  width: 200px;
+  padding: 15px 10px 0 10px;
+}
+#featured .flower .flower_tex {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  padding: 5px 0;
+}
+/* featured part end  */
+/* support part start  */
