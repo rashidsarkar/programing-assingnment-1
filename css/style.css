@@ -53,6 +53,9 @@ body {
   line-height: 30px;
   margin: 12px 0;
 }
+.section-description span {
+  display: block;
+}
 /* title part  */
 
 /* comon css end  */
@@ -218,4 +221,18 @@ header {
   border-radius: 8px;
   background: #e55473;
   margin: 0 auto;
+}
+
+/* insta part start  */
+#insta .main {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+#insta .main .pic {
+  width: 275px;
+}
+#insta .main .pic img {
+  width: 100%;
 }
